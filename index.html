@@ -18,11 +18,11 @@
         background: #231F20;
       }
 
-      /* Desktop: Hiển thị game với tỷ lệ giống Mobile */
+      /* Desktop: Hiển thị game với kích thước 30% của 1080x1920 */
       @media (min-width: 1024px) {
         #unity-canvas {
-          width: 540px !important; /* Tỷ lệ thu nhỏ 50% */
-          height: 960px !important;
+          width: 324px !important; /* 30% của 1080 */
+          height: 576px !important; /* 30% của 1920 */
           position: absolute;
           left: 50%;
           top: 50%;
@@ -51,9 +51,9 @@
           canvas.style.position = "fixed";
           document.body.style.textAlign = "left";
         } else {
-          // Desktop: Hiển thị game với tỷ lệ Mobile nhưng thu nhỏ 50%
-          canvas.style.width = "540px";  // 50% của 1080
-          canvas.style.height = "960px"; // 50% của 1920
+          // Desktop: Hiển thị game với kích thước 30% của Mobile
+          canvas.style.width = "324px";  // 30% của 1080
+          canvas.style.height = "576px"; // 30% của 1920
           canvas.style.position = "absolute";
           canvas.style.left = "50%";
           canvas.style.top = "50%";
