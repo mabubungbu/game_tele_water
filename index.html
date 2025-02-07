@@ -22,6 +22,14 @@
         canvas.style.position = "fixed";
 
         document.body.style.textAlign = "left";
+      }else {
+         // Desktop: Hiển thị game với tỷ lệ Mobile nhưng thu nhỏ 50%
+         canvas.style.width = "540px";  // 50% của 1080
+          canvas.style.height = "960px"; // 50% của 1920
+          canvas.style.position = "absolute";
+          canvas.style.left = "50%";
+          canvas.style.top = "50%";
+          canvas.style.transform = "translate(-50%, -50%)";
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
