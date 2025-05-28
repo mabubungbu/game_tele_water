@@ -1,9 +1,9 @@
 const cacheName = "MonTek-Hautend Catlse-1.0.2";
 const contentToCache = [
-    "Build/HautendCatlse.loader.js",
-    "Build/HautendCatlse.framework.js",
-    "Build/HautendCatlse.data",
-    "Build/HautendCatlse.wasm",
+    "Build/Hautend.loader.js",
+    "Build/Hautend.framework.js",
+    "Build/Hautend.data",
+    "Build/Hautend.wasm",
     "TemplateData/style.css"
 
 ];
